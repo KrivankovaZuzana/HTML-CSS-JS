@@ -1,5 +1,6 @@
-body {text-align: center; }
+header {text-align: center; width: 100%; margin: auto}
+body {text-align: center; width: 900px; margin: auto}
 p {color: black}
 h1 {color: grey; font-family: Garamond; font-variant: small-caps; letter-spacing: 10px;}
 h2 {color: grey; font-family: Garamond; letter-spacing: 10px; font-style: italic}
-table {margin: auto; width: 900px; color: white; background: grey; font-family: Garamond; font-type: strong; font-variant: small-caps; letter-spacing: 10px;}
+table {margin: auto; height: 50px; width: 100%; color: white; background: grey; font-family: Garamond; font-type: strong; font-variant: small-caps; letter-spacing: 10px;}
