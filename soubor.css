@@ -3,4 +3,4 @@ body {text-align: center; margin: auto}
 p {color: black; width: 60%; margin: auto; text-align: justify; margin-top: 12px; margin-bottom: 0px; text-indent: 5%}
 h1 {margin: auto; width: 60%; text-align: center; color: grey; font-family: Garamond; font-variant: small-caps; letter-spacing: 10px;}
 h2 {margin: auto; width: 60%; text-align: center; color: grey; font-family: Garamond; letter-spacing: 10px; font-style: italic}
-table {margin: auto; height: 50px; width: 100%; color: white; background: grey; font-family: Garamond; font-type: strong; font-variant: small-caps; letter-spacing: 10px;}
+table {margin: auto; height: 50px; width: 100%; color: white; background: grey; font-family: Garamond; font-weight: bold; font-variant: small-caps; letter-spacing: 10px;}
