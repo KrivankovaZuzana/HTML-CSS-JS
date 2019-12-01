@@ -1,6 +1,121 @@
-header {text-align: center; width: 100%; margin: auto}
-body {text-align: center; margin: auto}
-p {color: black; width: 60%; margin: auto; text-align: justify; margin-top: 12px; margin-bottom: 0px; text-indent: 5%}
-h1 {margin: auto; width: 60%; text-align: center; color: grey; font-family: Garamond; font-variant: small-caps; letter-spacing: 10px;}
-h2 {margin: auto; width: 60%; text-align: center; color: grey; font-family: Garamond; letter-spacing: 10px; font-style: italic}
-table {margin: auto; height: 50px; width: 100%; color: white; background-color: rgba(220,20,60,0.5); font-family: Garamond; font-weight: bold; font-variant: small-caps; letter-spacing: 10px;}
+header {text-align: center; width: 100%}
+.o_mne {text-align: center;
+      margin: auto;
+      background-color: rgba(220,204,204,0.8);
+      background-image: url("uvod2.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+.rozvrh {text-align: center;
+      margin: auto;
+      background-color: rgba(220,204,204,0.8)
+}
+.jak_to_funguje {text-align: center;
+      margin: auto;
+      background-color: rgba(220,204,204,0.8);
+      background-image: url("uvod2.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+.cenik {text-align: center;
+      margin: auto;
+      background-color: rgba(220,204,204,0.8);
+      background-image: url("money.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+}
+.kontakt {
+      text-align: center;
+      margin: auto;
+      background-color: rgba(220,204,204,0.8);
+}
+a {text-decoration: none;
+   color: white}
+a:hover    { color: grey}
+p {color: black;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  text-indent: 5%;
+  font-size: 150%;
+  font-family: Garamond;
+  line-height: 150%}
+h1 {margin: auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-family: Garamond;
+    font-variant: small-caps;
+    letter-spacing: 10px;
+    line-height: 200%;
+    font-size: 250%
+  }
+h2 {margin: auto;
+    width: 60%;
+    text-align: center;
+    color: grey;
+    font-family: Garamond;
+    font-variant: small-caps;
+    letter-spacing: 10px;
+    line-height: 200%;
+    font-size: 200%;
+  }
+#horni-menu table {
+       height: 50px;
+       width: 100%;
+       color: white;
+       background-color: rgba(220,20,60,0.8);
+       font-family: Garamond;
+       font-weight: bold;
+       font-variant: small-caps;
+       letter-spacing: 10px;
+       z-index: 2;
+       position: absolute;
+       top: 0px;
+       position: fixed;
+}
+#tabulka_rozvrh table {
+       width: 80%;
+       position: relative;
+       left: 10%;
+       border-width: 1px;
+       border-style: solid;
+       border-color: rgba(220,20,60,0.4);
+}
+#tabulka_rozvrh td {
+       background-color: white;
+}
+#tabulka_rozvrh th {
+       background-color: rgba(220,20,60,0.8);
+}
+#tabulka_rozvrh h2 {
+       position: relative;
+       margin-top: 5%;
+}
+article {background-color: rgba(255,255,255,1);
+         margin: auto;
+         width: 60%;
+         text-align: center;
+       }
+@media (max-width: 80em) {
+  h1 {font-size: 200%}
+  h2 {font-size: 180%}
+}
+@media (max-width: 60em) {
+  h1 {font-size: 150%}
+  h2 {font-size: 150%}
+}
+@media (max-width: 40em) {
+  h1 {font-size: 150%;
+      line-height: 100%}
+  h2 {font-size: 130%;
+      line-height: 180%}
+}
+@media (max-width: 30em) {
+  h1 {font-size: 120%;
+      line-height: 100%}
+  h2 {font-size: 100%;
+      line-height: 180%}
+}
